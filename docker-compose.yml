@@ -3,7 +3,7 @@ services:
   javagoof:
     build: .
     container_name: javagoof
-    environment:
+    environment: 
       - DOCKER=1
     ports:
       - "8080:8080" 
